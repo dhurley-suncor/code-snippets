@@ -19,54 +19,22 @@ To get started do the following :smiley:
      ```  
 3. Rename `.env-template` to `.env`
 
-4. Update the variables in `.env` to reflect your specific site. MAKE SURE `.env` IS IN THE `.gitignore` FILE!!! DON'T SEND TO VERSION CONTROL!!!
-The `.env` variables should be entered as show in the image below. 
+4. Update the variables in `.env` to reflect your specific site. MAKE SURE `.env` IS IN THE `.gitignore` FILE!!! DON'T SEND TO VERSION CONTROL!!! Update the container name and blob name in `run.py`. Images below show file path naming convention. 
 
 ![LinkClick](./Static/image1.PNG)
-![LinkPath](./Static/image2.PNG)
 
 5. Run the script 
 
   ```sh
-  python sharepoint_test.py
+  python run.py
   ```
   
-6. If succesful you will see an image uploaded to the SharePoint folder path
+6. If succesful you will see data print out
 
+<!-- AZURE AUTHENTICATION -->
+## Azure Authentication
+This method uses the DefaultAzureCredential to authenticate to Azure. It tries 6 methods, the first 2 are available in deployment and the next 4 are available when developing locally (see image below). If you use Visual Studio Code and the Azure plugin this will make authenticating MUCH EASIER! [Docs Here](https://docs.microsoft.com/en-us/python/api/overview/azure/identity-readme?view=azure-python)
 
+![LinkClick](./Static/image2.PNG)
 
-Script demonstrating how to push files to Sharepoint using SharePlum and Office365 authentication. SharePlum has other methods such as pull. 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get started do the following :smiley:
-
-1. Open a shell and clone the `main` branch of this repo
-
-   ```sh
-   git clone https://github.com/dhurley-suncor/SharepointPushDemo.git
-   ```
-2. Open a shell, create a virtual environment, and install the required dependencies. Below I show an example with Conda. You can also use VENV and Pipenv - just run the `pip install -r requirements.txt` after creation.
-
-     ```sh
-     conda create --name MYENV
-     conda activate MYENV
-     pip install -r requirements.txt
-     ```  
-3. Rename `.env-template` to `.env`
-
-4. Update the variables in `.env` to reflect your specific site. MAKE SURE `.env` IS IN THE `.gitignore` FILE!!! DON'T SEND TO VERSION CONTROL!!!
-The `.env` variables should be entered as show in the image below. 
-
-![LinkClick](./Static/image1.PNG)
-![LinkPath](./Static/image2.PNG)
-
-5. Run the script 
-
-  ```sh
-  python sharepoint_test.py
-  ```
-  
-6. If succesful you will see an image uploaded to the SharePoint folder path
 
