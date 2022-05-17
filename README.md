@@ -5,11 +5,8 @@ A repository containing helpful code snippets and methods
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#directory">Directory</a>
-      <ul>
-        <li><a href="#repository-overview">Repository Overview</a></li>
-      </ul>
-    </li>
+    <ul>
+       <li><a href="#repository-overview">Repository Overview</a></li>
+     </ul>
   </ol>
 </details>
