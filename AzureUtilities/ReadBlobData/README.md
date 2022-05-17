@@ -5,10 +5,10 @@ Script demonstrating how to read various file formats from Azure storage blob us
 
 To get started do the following :smiley:
 
-1. Open a shell and clone the `main` branch of this repo
+1. Open a shell and clone the `main` branch of this repo - navigate to this folder (AzureUtilities)
 
    ```sh
-   git clone https://github.com/dhurley-suncor/SharepointPushDemo.git
+   git clone https://github.com/dhurley-suncor/code-snippets.git
    ```
 2. Open a shell, create a virtual environment, and install the required dependencies. Below I show an example with Conda. You can also use VENV and Pipenv - just run the `pip install -r requirements.txt` after creation.
 
