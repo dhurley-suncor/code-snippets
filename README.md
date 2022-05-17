@@ -6,7 +6,7 @@ A repository containing helpful code snippets and methods
   <summary>Table of Contents</summary>
   <ol>
     <ul>
-       <li><a href="#repository-overview">Repository Overview</a></li>
+       <li><a href="#shareplum">SharepointSharePlumDemo</a></li>
      </ul>
   </ol>
 </details>
