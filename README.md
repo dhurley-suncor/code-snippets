@@ -6,7 +6,11 @@ A repository containing helpful code snippets and methods
   <summary>Table of Contents</summary>
   <ol>
     <ul>
-       <li><a href="#shareplum">SharepointSharePlumDemo</a></li>
+       <li>SharepointShareplumDemo/li>
+       <li>AzureUtilities/li>
+         <ul>
+           <li>ReadBlobData/li>
+         </ul>
      </ul>
   </ol>
 </details>
